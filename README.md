@@ -19,23 +19,33 @@
 8. 練習Markdown語法（可選）
 
 # Markdown語法練習區⬇️⬇️⬇️
-# H1標題
-## H2標題
-### H3標題
-### H4標題
+
+# h1 標題
+## h2 標題
+### h3 標題
+#### h3 標題
 
 **粗體**
+
 *斜體*
+
 - 第一項
 - 第二項
   - 子項
   - 子項
-`這是程式`
+ 
+1. 第一項
+2. 第二項
+   1. 子項
+   2. 子項
 
-``` python
-# 這是PYTHON程式碼
-print("Hello world")
+`這是一行程式碼`
+
+```python
+#這是python程式碼區塊
+print("Hello World")
 ```
+
 ```mermaid
 mindmap
   root ((網頁前端
@@ -65,18 +75,24 @@ mindmap
       Git
       Github
 ```
-![image](https://github.com/user-attachments/assets/59dbd9fc-c1ce-4b18-b531-5e7a6576ced3)
+![image](https://github.com/user-attachments/assets/65003f18-8c4c-4d6d-a232-fdc79f66a884)
 
 $$
 E=mc^2
 $$
-[Github](https://xianglibra.github.io/git_practice/)
-![這是圖片](https://picsum.photos/200/30sdsds0)
 
-> 這是一個引用
+[GitHub]()
+
+![替代文字](https://picsum.photos/200/300)
+
+>這是引用
+
 ---
 
-| 表頭一 |表投二 |
-| ----- | ----- |
+區隔過後
+
+|表頭1|表頭2|
+| --- | --- |
 | 單元格1 | 單元格2 |
 | 單元格3 | 單元格4 |
+
